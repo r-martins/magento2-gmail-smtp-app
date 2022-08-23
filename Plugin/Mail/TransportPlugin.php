@@ -76,8 +76,7 @@ class TransportPlugin
             } else {
                 $proceed();
             }
-        } else {
-            $proceed();
         }
+        $proceed();
     }
 }
